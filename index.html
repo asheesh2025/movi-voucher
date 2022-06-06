@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+      #navbar{
+        display: flex;
+        justify-content: space-between;
+        background-color: blueviolet;
+        color: white;
+      }
+      a{
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+      form{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 400px;
+        height: 500px;
+        text-align: center;
+        margin: auto;
+        margin-top: 100px;
+      }
+      input,button{
+        margin-top: 25px;
+        padding: 10px;
+        font-size: 25px;
+      }
+      h1{
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <h3>Sign Up</h3>
+      <a href="voucher.html">Purchase Voucher</a>
+    </div>
+    <form action="">
+      <h1>Sign Up</h1>
+      <br>
+      <input type="text" id="name" placeholder="write name">
+      <br>
+      <input type="email" id="email" placeholder="write email address">
+      <br>
+      <input type="text" id="address" placeholder="write address">
+      <br>
+      <input type="number" id="amount" placeholder="Enter amount">
+      <br>
+      <button id="submit" onclick="userdata()">Submit</button>
+    </form>
+    <!-- - name input box :- "name"
+  - email input box :- "email"
+  - Address input box :- "address"
+  - Amount input box :- "amount" 
+  - Submit button :- "submit"
+  - The user will be stored with key:- "user"
+  - The input fields should become empty after submitting -->
+  </body>
+</html>
+<script src="./scripts/main.js"></script>
